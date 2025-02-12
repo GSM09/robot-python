@@ -7,20 +7,14 @@ import random
 '''
 
 value = 1
+my_turn = True
 
 while True:
-    # 사용자에게 입력 요청
-    user = input("해당하는 숫자 입력: ")
+    if my_turn == True:
+        # 사용자에게 입력 요청
+        # 3, 6, 9가 포함되어 있나 확인
+        # 다음 숫자로 이동
 
-    # 3, 6, 9가 포함되어 있나 확인
-    if '3' in str(value) or '6' in str(value) or '9' in str(value):
-        if user != "짝":
-            print("틀렸습니다! 게임 종료.")
-            break
-    else:
-        if user != str(value):
-            print("틀렸습니다! 게임 종료.")
-            break
-
-    # 다음 숫자로 이동
-    value += 1
+        # 컴퓨터에게 입력 요청
+        # 3, 6, 9가 포함되어 있나 확인
+        # 다음 숫자로 이동
