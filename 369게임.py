@@ -5,6 +5,15 @@ import random
 """
 value = 1
 user = input("해당하는 숫자 입력: ")
+
+def 사용자():
+
+def 확인():
+
+def 다음():
+
+def 컴퓨터():
+
 # 무한 반복하게 만들고, 사용자가 틀린 값 입력 시 에러 출력
 while value:
         # 사용자 입력
