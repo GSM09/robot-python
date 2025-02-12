@@ -33,6 +33,7 @@ def 컴퓨터():
     else:
         computer_input = str(value)
     print(f"컴퓨터: {computer_input}")
+    다음()
 
 # 무한 반복하게 만들고, 사용자가 틀린 값 입력 시 에러 출력
 while value:
@@ -49,6 +50,3 @@ while value:
 
         # 컴퓨터 입력
         컴퓨터()
-
-        # 다음 차례로 이동
-        다음()
