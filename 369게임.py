@@ -22,6 +22,9 @@ def 확인(value, user):
     return True
 
 def 다음():
+    global value, my_turn
+    value += 1
+    my_turn = not my_turn
 
 def 컴퓨터():
 
@@ -34,8 +37,9 @@ while value:
         # 3, 6, 9가 포함되어 있나 확인
         if not 확인(value, user_input):
             break
-        
+
         # 다음 차례로 이동
+        다음()
 
         # 컴퓨터 입력
         # 다음 차례로 이동
