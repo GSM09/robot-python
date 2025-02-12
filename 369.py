@@ -10,6 +10,7 @@ value = 1
 my_turn = True
 
 def 사용자():
+    user = input("해당하는 숫자 입력: ")
 
 def 확인():
 
